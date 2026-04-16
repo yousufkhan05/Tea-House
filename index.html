@@ -36,7 +36,7 @@
             </nav>
             <!-- Hero section -->
             <section class="container mx-auto mt-8 px-4">
-                <div class="md:grid md:grid-cols-2 mt-15">
+                <div class="md:grid md:grid-cols-2 mt-15 relative">
                     <!-- content Part -->
                     <div class="flex flex-col items-center md:items-start md:justify-center text-center md:text-left ">
                         <h1
@@ -56,9 +56,9 @@
                             <img src="./images/banner.png ">
                         </div>
                         <div
-                            class="flex h-12 w-30 lg:h-15  lg:w-40 bg-gray-50 rounded-md absolute  bottom-32 left-18 md:relative md:bottom-10 md:left-25 shadow-md sm:bottom-0 sm:left-40 lg:left-50 lg:bottom-15">
+                            class="flex h-12 w-30 lg:h-15  lg:w-40 bg-gray-50 rounded-md shadow-md  bottom-12 left-20 relative ">
                             <div class="">
-                                <i class="fa-regular fa-star h-11 w-11 text-yellow-400"></i>
+                                <i class="fa-regular fa-star h-11 w-11 text-yellow-400 relative"></i>
                             </div>
                             <div>
                                 <h3 class="font-bold">5.00</h3>
@@ -193,23 +193,90 @@
                     </div>
 
                 </div>
-
             </div>
-
         </section>
 
         <!-- Meet Our Super Clients -->
-        <section class="container mx-auto px-4 mt-12 md:mt-20">
-            <!-- Main div -->
-            <div class="bg-linear-to-r from-red-500 to-pink-400 text-white">
-                <h2 class="text-shadow-lg/30">Meet Our Super<br>Clients</h2>
-                <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    believable.
-                </p>
+        <section class="container mx-auto px-4 mt-10 md:mt-20">
+
+            <div
+                class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl p-6 md:p-12 grid md:grid-cols-2 gap-10 items-center text-white">
+
+                <!-- LEFT SIDE -->
+                <div>
+                    <h2 class="font-extrabold text-3xl md:text-5xl leading-tight text-center md:text-left text-shadow-lg/30">
+                        Meet Our Super <br> Clients
+                    </h2>
+
+                    <p class="mt-5 mb-7 text-sm md:text-base text-justify md:text-left">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form.
+                    </p>
+
+                    <button class="bg-white text-red-500 px-5 py-2 rounded-md w-fit block mx-auto md:mx-0 cursor-pointer shadow-2xl text-shadow-lg/30">
+                        Show All
+                    </button>
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="relative flex flex-col gap-8 justify-center md:justify-end ml-10">
+
+                    <div class="">
+                        <!-- First CARD -->
+                        <div class="bg-white md:bg-white/20  text-black p-6 rounded-lg w-fit  relative mb-8 ">
+
+                            <!-- Avatar -->
+                            <img src="./client.png"
+                                class="w-12 border-4 border-white/20 rounded-full absolute -top-5 -left-4">
+
+                            <p class="text-sm md:text-base mt-2">
+                                We are providing the best and suitable home insurance services for the people who are
+                                interested to treatment.
+                            </p>
+
+                            <h4 class="font-bold mt-2">Ilham Yuda</h4>
+                            <h5 class="text-sm text-gray-500">Businessman</h5>
+                        </div>
+
+                        <!-- Second CARD -->
+                        <div class="bg-white md:bg-white/20 text-black p-6 rounded-lg w-fit  relative ">
+
+                            <!-- Avatar -->
+                            <img src="./client.png"
+                                class="w-12 border-4 border-white rounded-full absolute -top-5 -left-4">
+
+                            <p class="text-sm md:text-base mt-2">
+                                We are providing the best and suitable home insurance services for the people who are
+                                interested to treatment.
+                            </p>
+
+                            <h4 class="font-bold mt-2">Ilham Yuda</h4>
+                            <h5 class="text-sm text-gray-500">Businessman</h5>
+                        </div>
+                    </div>
+
+                    <div class="md:absolute z-10 top-28 -left-20 max-w-max w-full">
+                        <!-- Third CARD -->
+                        <div class="bg-white text-black p-6 rounded-lg w-fit  relative  ">
+
+                            <!-- Avatar -->
+                            <img src="./client.png"
+                                class="w-12 border-4 border-white rounded-full absolute -top-5 -left-4">
+
+                            <p class="text-sm md:text-base mt-2">
+                                We are providing the best and suitable home insurance services for the people who are
+                                interested to treatment.
+                            </p>
+
+                            <h4 class="font-bold mt-2">Ilham Yuda</h4>
+                            <h5 class="text-sm text-gray-500">Businessman</h5>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
+
         </section>
     </main>
 </body>
